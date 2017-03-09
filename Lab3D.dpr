@@ -31,7 +31,7 @@ var
   B  : Bitmap;
   ws : cardinal;
   wasPhys : boolean = false;
-  predT : integer = 0;
+  predT : cardinal = 0;
   procT : integer = 0;
 
   prFor   : boolean = false;
@@ -114,7 +114,7 @@ end;
 
 procedure TimerProc;
 var
-  T, dT : integer;
+  T, dT : cardinal;
 const Delta = 15;
 begin
   T := GetTickCount;

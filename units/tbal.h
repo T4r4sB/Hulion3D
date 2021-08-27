@@ -3,6 +3,7 @@
 #include "stdint.h"
 #include <algorithm>
 #include <vector>
+#include <fstream>
 #include "tbslice.h"
 #include "tbarr2.h"
 

@@ -269,7 +269,7 @@ void InitSnowmans ()
 		em.texture = &mstrTxr[pasrnd.random(mstrTxr.size())];
 		float r = 0.8f + float(pasrnd.frandom())*0.5f;
 		em.player = false;
-		em.initialhealth = 20.0f+80.f+float(j)/float(emSnowman.size()-1);
+		em.initialhealth = 20.0f+80.f+float(i)/float(emSnowman.size()-1);
 		em.mass  = 0.1f*r;
 		em.headr = 0.15f*r;
 		em.bodyr = 0.25f*r;
@@ -356,7 +356,7 @@ void InitTrilobits ()
 		em.texture = &mstrTxr[pasrnd.random(mstrTxr.size())];
 		float r = 1.0f;
 		em.player = false;
-		em.initialhealth = 30.0f+100.f+float(j)/float(emTrilobit.size()-1);
+		em.initialhealth = 30.0f+100.f+float(i)/float(emTrilobit.size()-1);
 		em.mass  = 0.1f*r;
 		em.headr = 0.3f*r;
 		em.bodyr = 0.3f*r;

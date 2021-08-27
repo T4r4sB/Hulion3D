@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "tbal.h"
 #include "fixed.h"
 #include "math.h"
